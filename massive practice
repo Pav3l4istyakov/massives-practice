@@ -1,0 +1,22 @@
+#include<iostream>
+int main()
+{
+	setlocale(LC_ALL, "RU");
+	const int size = 5;
+	int summ = 0;
+	int arr[size]{ -23,-11,9,-18,25 };
+	for (int i = 0; i < size; i++)
+	{
+		if (arr[i] < 0)
+		{
+			summ += arr[i];
+		}
+	}
+	std::cout << summ;
+
+
+
+	
+	return 0;
+}
+
